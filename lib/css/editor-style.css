@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'Source';
-  src: url('/font/Source.ttf');
+  font-family: 'Roadway Mono';
+  src: url('/font//roadway/roadwaymono.ttf');
 }
 
 @font-face {
-  font-family: 'Jupiter Text';
-  src: url('/font/JupiterText.ttf');
+  font-family: 'Roadway';
+  src: url('/font//roadway/roadway.ttf');
 }
 
 @font-face {
@@ -71,7 +71,7 @@ html, body {
 }
 
 .editor-btn {
-  font-family: 'Jupiter Text';
+  font-family: 'Roadway';
   font-size: 16px;
   color: #3536e5;
   border: 0;
@@ -84,7 +84,7 @@ html, body {
 }
 
 .editor-btn:hover {
-  font-family: 'Jupiter Text';
+  font-family: 'Roadway';
   font-size: 16px;
   color: #ffffff;
   border: 0;
@@ -106,7 +106,7 @@ html, body {
 }
 
 .editor-code {
-  font-family: 'Laurentia Mono';
+  font-family: 'Roadway Mono';
   font-size: 16px;
   position: relative;
   height: 100%;
@@ -129,7 +129,7 @@ html, body {
 }
 
 .editor-console-logs li pre {
-  font-family: 'Laurentia Mono';
+  font-family: 'Roadway Mono';
   font-size: 16px;
 }
 
