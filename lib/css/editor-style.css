@@ -8,6 +8,11 @@
   src: url('/font/JupiterText.ttf');
 }
 
+@font-face {
+  font-family: 'Laurentia Mono';
+  src: url('/font/LaurentiaMono.ttf');
+}
+
 /* Variables */
 :root {
   --editor-bg: #f1f1f0;
@@ -101,7 +106,7 @@ html, body {
 }
 
 .editor-code {
-  font-family: 'Source';
+  font-family: 'Laurentia Mono';
   font-size: 16px;
   position: relative;
   height: 100%;
@@ -124,7 +129,7 @@ html, body {
 }
 
 .editor-console-logs li pre {
-  font-family: 'Source';
+  font-family: 'Laurentia Mono';
   font-size: 16px;
 }
 
