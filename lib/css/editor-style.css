@@ -1,16 +1,16 @@
 @font-face {
-  font-family: 'Roadway Mono';
-  src: url('/font//roadway/roadwaymono.ttf');
+  font-family: 'Aller';
+  src: url('/font/aller/aller-regular.ttf');
 }
 
 @font-face {
-  font-family: 'Roadway';
-  src: url('/font//roadway/roadway.ttf');
+  font-family: 'Aller Bold';
+  src: url('/font/aller/aller-bold.ttf');
 }
 
 @font-face {
-  font-family: 'Laurentia Mono';
-  src: url('/font/LaurentiaMono.ttf');
+  font-family: 'Aller Mono';
+  src: url('/font/aller/allermono.ttf');
 }
 
 /* Variables */
@@ -70,8 +70,8 @@ html, body {
   overflow: hidden;
 }
 
-.editor-btn {
-  font-family: 'Roadway';
+.editor-btn1 {
+  font-family: 'Aller Bold';
   font-size: 16px;
   color: #3536e5;
   border: 0;
@@ -83,8 +83,8 @@ html, body {
   cursor: pointer;
 }
 
-.editor-btn:hover {
-  font-family: 'Roadway';
+.editor-btn1:hover {
+  font-family: 'Aller Bold';
   font-size: 16px;
   color: #ffffff;
   border: 0;
@@ -94,6 +94,30 @@ html, body {
   margin-top: 1em;
   width: 100px;
   cursor: pointer;
+}
+
+.editor-btn {
+  display: flex;
+  margin-top: 1em;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+  background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.editor-btn:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+  margin-top: 1em;
 }
 
 .editor-console {
@@ -106,7 +130,7 @@ html, body {
 }
 
 .editor-code {
-  font-family: 'Roadway Mono';
+  font-family: 'Aller Mono';
   font-size: 16px;
   position: relative;
   height: 100%;
@@ -129,7 +153,7 @@ html, body {
 }
 
 .editor-console-logs li pre {
-  font-family: 'Roadway Mono';
+  font-family: 'Aller Mono';
   font-size: 16px;
 }
 
