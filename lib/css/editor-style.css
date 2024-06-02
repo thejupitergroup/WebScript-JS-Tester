@@ -1,16 +1,16 @@
 @font-face {
-  font-family: 'Aller';
-  src: url('/font/aller/aller-regular.ttf');
+  font-family: 'Dotlin Text';
+  src: url('/font/DotlinText.ttf');
 }
 
 @font-face {
-  font-family: 'Aller Bold';
-  src: url('/font/aller/aller-bold.ttf');
+  font-family: 'Dotlin Text Bold';
+  src: url('/font/DotlinText-Bold.ttf');
 }
 
 @font-face {
-  font-family: 'Aller Mono';
-  src: url('/font/aller/allermono.ttf');
+  font-family: 'Dotlin Mono';
+  src: url('/font/DotlinMono.ttf');
 }
 
 /* Variables */
@@ -71,7 +71,7 @@ html, body {
 }
 
 .editor-btn1 {
-  font-family: 'Aller Bold';
+  font-family: 'Dotlin Text Bold';
   font-size: 16px;
   color: #3536e5;
   border: 0;
@@ -84,7 +84,7 @@ html, body {
 }
 
 .editor-btn1:hover {
-  font-family: 'Aller Bold';
+  font-family: 'Dotlin Text Bold';
   font-size: 16px;
   color: #ffffff;
   border: 0;
@@ -102,7 +102,7 @@ html, body {
   flex-direction: column;
   align-items: center;
   padding: 6px 14px;
-  font-family: 'Aller Bold';
+  font-family: 'Dotlin Text Bold';
   border-radius: 6px;
   border: none;
   color: #fff;
@@ -130,7 +130,7 @@ html, body {
 }
 
 .editor-code {
-  font-family: 'Aller Mono';
+  font-family: 'Dotlin Mono';
   font-size: 16px;
   position: relative;
   height: 100%;
@@ -153,7 +153,7 @@ html, body {
 }
 
 .editor-console-logs li pre {
-  font-family: 'Aller Mono';
+  font-family: 'Dotlin Mono';
   font-size: 16px;
 }
 
